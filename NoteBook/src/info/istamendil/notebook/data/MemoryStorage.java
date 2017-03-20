@@ -1,10 +1,12 @@
 package info.istamendil.notebook.data;
 
+
 import java.util.ArrayList;
 
 public class MemoryStorage implements Db {
     ArrayList memoryStorage;
 
+   
     public MemoryStorage() {
         memoryStorage = new ArrayList();
     }
