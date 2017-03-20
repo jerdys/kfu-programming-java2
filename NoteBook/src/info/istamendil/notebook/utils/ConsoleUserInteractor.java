@@ -9,7 +9,9 @@ public class ConsoleUserInteractor implements UserInteractor {
     public String readCommand() throws UserInteractorReadException {
         Scanner sc = new Scanner(System.in);
         String command = sc.nextLine();
-        if (command.isEmpty()) return null;
+        if (command.isEmpty()) {
+            return null;
+        }
 
         return command;
     }
