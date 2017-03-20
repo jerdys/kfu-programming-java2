@@ -1,6 +1,5 @@
 package info.istamendil.notebook.data;
 
-
 import java.util.ArrayList;
 
 public class MemoryStorage implements Db {
